@@ -2,3 +2,4 @@ document.getElementById('emailForm').addEventListener('submit', async function (
     e.preventDefault();
     console.log('Form submitted');
 });
+console.log('hmm')
