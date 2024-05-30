@@ -3,6 +3,9 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 
+nltk.download('punkt')
+nltk.download('stopwords')
+
 
 def preprocess_text(text):
     if type(text) is str:
